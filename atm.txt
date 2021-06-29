@@ -1,0 +1,9 @@
+# cook your dish here
+amt,bal = map(float,input().split())
+amt=int(amt)
+
+if(amt%5 == 0 and amt+0.50<=bal):
+    c = bal-(amt+0.50)
+    print(c)
+else:
+    print(bal)
