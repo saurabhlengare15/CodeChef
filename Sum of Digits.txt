@@ -1,0 +1,7 @@
+# cook your dish here
+for i in range(int(input())):
+    n = input()
+    sum = 0
+    for _ in n:
+        sum = sum+int(_)
+    print(sum)
