@@ -1,0 +1,5 @@
+# cook your dish here
+for i in range(int(input())):
+    N = int(input())
+    N = str(N)
+    print((int(N[0])+int(N[-1])))
